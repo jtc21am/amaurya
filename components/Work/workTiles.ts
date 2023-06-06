@@ -38,7 +38,7 @@ export const workTiles: WorkTile[] = [
   },
   {
     description: `I am a`,
-    title: 'Backend Technical Advisor for New E-commerce App',
+    title: 'Backend Technical Mentor for New E-commerce App',
     image: {
       src: '/static/images/keyboard.png',
       width: 400,
