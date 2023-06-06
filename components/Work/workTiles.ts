@@ -29,7 +29,7 @@ export const workTiles: WorkTile[] = [
   },
   {
     description: `I am a`,
-    title: 'Teaching Assistant and Curriculm Collaberator',
+    title: 'Teaching Assistant and Curriculm Collaborator',
     image: {
       src: '/static/images/jtc1.png',
       width: 600,
