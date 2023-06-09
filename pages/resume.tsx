@@ -1,10 +1,10 @@
-import { PageSEO } from '@/components/SEO';
-import siteMetadata from '@/data/siteMetadata';
-import MainLayout from '@/layouts/MainLayout';
+import { PageSEO } from '@/components/SEO'
+import siteMetadata from '@/data/siteMetadata'
+import MainLayout from '@/layouts/MainLayout'
 
 export default function Resume(): JSX.Element {
   const resumeSrc =
-    'https://onedrive.live.com/view.aspx?resid=B972E0CE7D8636BC!204&ithint=file%2cdocx&authkey=!AB8DGLgD4gbTQrs';
+    'https://onedrive.live.com/view.aspx?resid=B972E0CE7D8636BC!204&ithint=file%2cdocx&authkey=!AB8DGLgD4gbTQrs'
 
   return (
     <MainLayout>
@@ -24,7 +24,5 @@ export default function Resume(): JSX.Element {
         </div>
       </div>
     </MainLayout>
-  );
+  )
 }
-
-
