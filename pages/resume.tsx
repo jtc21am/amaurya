@@ -3,7 +3,7 @@ import siteMetadata from '@/data/siteMetadata'
 import MainLayout from '@/layouts/MainLayout'
 
 export default function Resume() {
-  const resumeSrc = '/static/images/project/ashamaurya_resume.pdf'
+  const resumeSrc = 'https://onedrive.live.com/view.aspx?resid=B972E0CE7D8636BC!204&ithint=file%2cdocx&authkey=!AB8DGLgD4gbTQrs'
 
   return (
     <MainLayout>
