@@ -18,14 +18,12 @@ export default function Resume(): JSX.Element {
         <div className="container py-5">
           <div className="p-4">
             <a href={resumeSrc} target="_blank" rel="noopener noreferrer">
-              Download Resume
+              View Resume
             </a>
-          </div>
-          <div className="p-4">
-            <embed src={resumeSrc} width="100%" height="800px" type="application/pdf" />
           </div>
         </div>
       </div>
     </MainLayout>
   );
 }
+
