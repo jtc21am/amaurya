@@ -1,9 +1,10 @@
-import { PageSEO } from '@/components/SEO'
-import siteMetadata from '@/data/siteMetadata'
-import MainLayout from '@/layouts/MainLayout'
+import { PageSEO } from '@/components/SEO';
+import siteMetadata from '@/data/siteMetadata';
+import MainLayout from '@/layouts/MainLayout';
 
-export default function Resume() {
-  const resumeSrc = 'https://onedrive.live.com/view.aspx?resid=B972E0CE7D8636BC!204&ithint=file%2cdocx&authkey=!AB8DGLgD4gbTQrs'
+export default function Resume(): JSX.Element {
+  const resumeSrc =
+    'https://onedrive.live.com/view.aspx?resid=B972E0CE7D8636BC!204&ithint=file%2cdocx&authkey=!AB8DGLgD4gbTQrs';
 
   return (
     <MainLayout>
@@ -16,7 +17,7 @@ export default function Resume() {
         </div>
         <div className="container py-5">
           <div className="p-4">
-            <a href={resumeSrc} download>
+            <a href={resumeSrc} target="_blank" rel="noopener noreferrer">
               Download Resume
             </a>
           </div>
@@ -26,5 +27,5 @@ export default function Resume() {
         </div>
       </div>
     </MainLayout>
-  )
+  );
 }
