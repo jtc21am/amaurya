@@ -17,8 +17,8 @@ export default function Resume(): JSX.Element {
         </div>
         <div className="container py-5">
           <div className="p-4">
-            <a href={resumeSrc} target="_blank" rel="noopener noreferrer">
-              View Resume
+            <a href={resumeSrc} download>
+              Download Resume
             </a>
           </div>
         </div>
@@ -26,4 +26,5 @@ export default function Resume(): JSX.Element {
     </MainLayout>
   );
 }
+
 
