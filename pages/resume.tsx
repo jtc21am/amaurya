@@ -17,14 +17,6 @@ export default function Resume(): JSX.Element {
         </div>
         <div className="container py-5">
           <div className="p-4">
-            <a href={resumeSrc} target="_blank" rel="noopener noreferrer">
-              View Resume
-            </a>
-          </div>
-          <div className="p-4">
-            <iframe src={resumeSrc} width="100%" height="800px"></iframe>
-          </div>
-          <div className="p-4">
             <a href={resumeSrc} download>
               Download Resume
             </a>
